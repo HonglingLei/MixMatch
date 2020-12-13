@@ -11,7 +11,11 @@ Detailed steps of this semi-supervised learning algorithm
   - Drop features where over 95% of the data are missing
   - Impute missing values: -1 for int (discrete values), mean for float (continuous values)
   - Construct matrices after dimension seperation
-  - The final data should be in a dimension of 4: [sample size, RGB parameter (3 if colored, 1 if grey scale or non-image data), matrix length, matrix width]
+  - The final data should be in a dimension of 4
+    - sample size
+    - RGB parameter (3 if colored, 1 if grey scale or non-image data)
+    - matrix length
+    - matrix width
 
 ## Data Augmentation
 
