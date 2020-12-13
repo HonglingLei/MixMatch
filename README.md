@@ -29,10 +29,8 @@ Detailed steps of this semi-supervised learning algorithm
 ## Label Guessing
 
 - Generate pseudo labels for unlabeled data with models. Try multiple times and take the mean as the final result
-
 - For image data, Wide-ResNet-28 (28 layers of wide residual networks) is commonly used. However, technically other unsupervised learning models could work too, depending on the data format
-
-  - Wide-Res-Net structure
+  - Wide-Res-Net structure (see graph [here](https://github.com/HonglingLei/MixMatch/blob/main/WideResNet_structure.png))
 
 ## Sharpening Pseudo Labels
 
@@ -41,20 +39,13 @@ Detailed steps of this semi-supervised learning algorithm
 ## Shuffle
 
 - Put together X and U as W; then shuffle W
-
   - X：augmented labeled dataset and their labels
-
   - U：augmented unlabeled dataset and their pseudo labels
-
   - hyper-parameter α = 0.75
-
-    λ ~ Beta(α, α)
-
-    λ' = max(λ, 1-λ)
-
-    x' = λ'x1 + (1-λ')x2
-
-    p' = λ'p1 + (1-λ')p2
+    - λ ~ Beta(α, α)
+    - λ' = max(λ, 1-λ)
+    - x' = λ'x1 + (1-λ')x2
+    - p' = λ'p1 + (1-λ')p2
 
 ## MixUp
 
