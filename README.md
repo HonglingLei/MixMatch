@@ -1,7 +1,4 @@
 # MixMatch
-A semi-supervised learning algorithm
-
-# MixMatch
 
 Detailed steps of this semi-supervised learning algorithm
 
@@ -32,8 +29,6 @@ Detailed steps of this semi-supervised learning algorithm
 - For image data, Wide-ResNet-28 (28 layers of wide residual networks) is commonly used. However, technically other unsupervised learning models could work too, depending on the data format
 
   - Wide-Res-Net structure
-
-    <img src="/Users/hongling/Library/Application Support/typora-user-images/Screen Shot 2020-12-13 at 4.49.19 PM.png" alt="Screen Shot 2020-12-13 at 4.49.19 PM" style="zoom:50%;" />
 
 ## Sharpening Pseudo Labels
 
