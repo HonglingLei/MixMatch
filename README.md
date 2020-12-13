@@ -3,6 +3,7 @@
 This repository is about steps of this semi-supervised learning algorithm.\
 - Original paper: [*MixMatch - A Holistic Approach to Semi-Supervised Learning*](https://arxiv.org/abs/1905.02249) by David Berthelot, Nicholas Carlini, Ian Goodfellow, Nicolas Papernot, Avital Oliver and Colin Raffel.\
 - Code provided by Google Research is [here](https://github.com/google-research/mixmatch). \
+
 This algorithm is originally designed for image classification and usually requires CUDA support. Together with Yang Wan and Minchenxi Zhou, I used this approach and modified the code for tabular data and a CPU-only environment in my internship. I cannot upload code here because of confidentiality requirement, but I can share my understanding of this algorithm because it's public content:)
 
 
