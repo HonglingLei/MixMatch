@@ -2,8 +2,8 @@
 
 This repository is about steps of this semi-supervised learning algorithm.\
 Original paper: [*MixMatch - A Holistic Approach to Semi-Supervised Learning*](https://arxiv.org/abs/1905.02249)\
-Code provided by Google Research is [here](https://github.com/google-research/mixmatch). Originally designed for image classification.\
-I used this approach and modified the code for tabular data with team in my internship. I cannot upload code here because of confidentiality requirement.
+Code provided by Google Research is [here](https://github.com/google-research/mixmatch). This algorithm is originally designed for image classification and usually requires CUDA support.\
+I used this approach and modified the code for tabular data with team in my internship. I cannot upload code here because of confidentiality requirement, but I can share my understanding of this algorithm because it's public content:)
 
 
 
