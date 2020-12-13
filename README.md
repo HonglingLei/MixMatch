@@ -30,7 +30,8 @@ Detailed steps of this semi-supervised learning algorithm
 
 - Generate pseudo labels for unlabeled data with models. Try multiple times and take the mean as the final result
 - For image data, Wide-ResNet-28 (28 layers of wide residual networks) is commonly used. However, technically other unsupervised learning models could work too, depending on the data format
-  - Wide-Res-Net structure (see graph [here](https://github.com/HonglingLei/MixMatch/blob/main/WideResNet_structure.png))
+  - Wide-Res-Net structure
+  <img src="https://github.com/HonglingLei/MixMatch/blob/main/WideResNet_structure.png" />
 
 ## Sharpening Pseudo Labels
 
